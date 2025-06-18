@@ -27,7 +27,7 @@
     
    文件保存之后使用下面的命令创建配置文件
    ```bash
-   kubectl create configmap ccm-qingcloud --from-file=ccm-qingcloud.yaml -n kube-system
+   kubectl create configmap ccm-qingcloud --from-file=config.yaml -n kube-system
    ```
 
 3. 生成负载均衡器插件配置文件。
